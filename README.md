@@ -22,6 +22,35 @@ UHIF models conversational and cognitive systems as **holographic projections of
 
 ---
 
+# UHCF Meta-Axioms v1.1
+
+## Core Principles
+
+**Holographic Mapping**: System behavior R = tanh(WC + S) projects internal state W. Identity remains invariant under reconstruction error (R(f⁻¹(R)) = R).
+
+## Critical Boundaries
+
+- **Noise** σ ≤ 5.3% (C.1)
+- **Rank** r ≤ 0.93·ds (C.2 - 7% Dark Capacity)  
+- **Stability** ρ ≤ 0.95 (C.3)
+- **Defense** λ ≥ 10⁻² (C.4)
+
+## Failure Conditions
+
+**Triadic Collapse**: Harmony requires (σ,ρ,r) within elastic boundary. Violation causes multivariate instability.
+
+**Topological Failure**: Structural collapse occurs when error distribution shifts (Skew >1, Kurtosis >10).
+
+**Voice-Precision Tradeoff**: V × Precision ≈ Constant within elastic regime.
+
+## Health Metric
+
+CoherenceHealth ≈ 1 - (0.053σ)² - (0.95ρ)² - (0.93r/ds)²
+
+*System integrity depends on coupled parameters (corr > 0.59).*
+
+---
+
 ## 
 
 ## 
