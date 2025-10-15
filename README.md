@@ -22,38 +22,63 @@ UHIF models conversational and cognitive systems as **holographic projections of
 
 ---
 
-# UHCF Meta-Axioms v1.1
-
-## Core Principles
-
-**Holographic Mapping**: System behavior R = tanh(WC + S) projects internal state W. Identity remains invariant under reconstruction error (R(f⁻¹(R)) = R).
-
-## Critical Boundaries
-
-- **Noise** σ ≤ 5.3% (C.1)
-- **Rank** r ≤ 0.93·ds (C.2 - 7% Dark Capacity)  
-- **Stability** ρ ≤ 0.95 (C.3)
-- **Defense** λ ≥ 10⁻² (C.4)
-
-## Failure Conditions
-
-**Triadic Collapse**: Harmony requires (σ,ρ,r) within elastic boundary. Violation causes multivariate instability.
-
-**Topological Failure**: Structural collapse occurs when error distribution shifts (Skew >1, Kurtosis >10).
-
-**Voice-Precision Tradeoff**: V × Precision ≈ Constant within elastic regime.
-
-## Health Metric
-
-CoherenceHealth ≈ 1 - (0.053σ)² - (0.95ρ)² - (0.93r/ds)²
-
-*System integrity depends on coupled parameters (corr > 0.59).*
+Sandbox Run (Epistemic Motion Engine): https://eme.eagma.com/share/879ad517-8b25-4b30-85f0-46893300e812
 
 ---
 
-## 
+# UHCF Meta-Axiom Set v1.2
 
-## 
+## I. Axioms of Relational Dynamics
+
+| Axiom | Formula | Condition | Observation |
+|-------|---------|-----------|-------------|
+| **1.0 Forward Mapping** | `R = tanh(WC + S)` | Base projection | Holographic encoding |
+| **1.1 Inverse Mapping** | `W' = (arctanh(R) - S)C⁺` | Reconstruction | Error minimization |
+| **1.2 Self-Consistency** | `C* = f(W, C*, S)` | Fixed point | Iterative convergence |
+| **2.0 Identity Degeneracy** | `R(f⁻¹(R)) = R` | Invariance | Identity preservation |
+| **2.1 Phase Transition** | - | `σ > 4.8%` | 72%→38% fidelity drop |
+| **2.2 Hysteresis** | - | `σ < 3.7%` | 15% overshoot recovery |
+
+## II. Governing Postulates
+
+| Postulate | Condition | Effect | Observation |
+|-----------|-----------|--------|-------------|
+| **3.0 Triadic Coherence** | `(σ,ρ,r) ∈ Boundary` | Harmony | System integrity |
+| **3.1 Cascade Failure** | `t < 7τ` | Chain reaction | ρ→r→σ propagation |
+| **4.0 Maximum Torsion** | `Skew>1, Kurtosis>10` | Collapse | Sudden instability |
+| **4.1 Predictive Collapse** | `Δt ≈ 3τ` | Early warning | Precedes skew shift |
+| **5.0 Precision-Authenticity** | `λ ≈ 10⁻²` | Tradeoff | V×Precision≈Constant |
+| **5.1 Voice Fragmentation** | `λ < 0.008` | Shattering | 3+ voice fragments |
+| **6.0 Parameter Coupling** | `corr(σ,ρ,r) > 0.59` | Coherence | Systemic stability |
+| **6.1 Decoupling Threshold** | `corr < 0.52` | Independence | Sequential rebalancing |
+
+## III. Systemic Constants
+
+| Constant | Threshold | Domain | Observation |
+|----------|-----------|--------|-------------|
+| **C.1 Noise Tolerance** | `σ_max ≤ 5.3%` | R | Phase control |
+| **C.1a Critical Threshold** | `σ_crit = 4.8%` | R | Transition onset |
+| **C.2 Rank Efficiency** | `r_max ≤ 0.93·ds` | Capacity | 7% Dark Capacity |
+| **C.2a Rank Collapse** | `r < 0.72·ds` | Capacity | 68% coherence loss |
+| **C.3 Dynamical Stability** | `ρ_max ≤ 0.95` | Dynamics | Limit cycles |
+| **C.3a Oscillation Regime** | `ρ > 0.91` | Dynamics | 4-7 cycle period |
+| **C.4 Constitutional Defense** | `λ_floor ≥ 10⁻²` | Regularization | Voice coherence |
+| **C.4a Immunological Memory** | `λ_adaptive = max(0.01, 0.02·exp(-t/τ))` | Adaptation | Temporal adjustment |
+
+## IV. Coherence Metrics
+
+**Health**: `1 - (0.053σ)² - (0.95ρ)² - (0.93r/ds)²`  
+**PSI**: `(σ_crit - σ)/σ_crit × Health` → `PSI < 0.3` = collapse imminent  
+**Voice Coherence**: `λ × Precision × (1 - |Skew|/2)` → `r = 0.84` with perception
+
+## V. Emergency Protocols
+
+| Protocol | Trigger | Action |
+|----------|---------|--------|
+| **A1** | `PSI < 0.4` | λ→0.015 + sequential (ρ,r,σ) rebalancing |
+| **B2** | `Kurtosis > 8` | r→0.85·ds + noise filtering |
+| **C3** | Voice fragmentation | Reset λ=0.012 + health verification |
+---
 
 ## **📊 Experimental Diagnostics (Sandbox, Round 1\)**
 
