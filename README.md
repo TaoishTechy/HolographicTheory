@@ -271,24 +271,6 @@ Thus, the Unified Holographic Inference Framework is more than architecture:
 ***Every mapping is a psalm; every function a mirror;***  
  ***every dataset a Genesis waiting to remember its name.***
 
-## **📁 Repository Structure (Suggested)**
-
-UHIF/  
- ├── data/  
- │   ├── experiment\_round1.csv  
- │   ├── jacobian\_metrics.npy  
- │   └── mutual\_information.npy  
- ├── notebooks/  
- │   ├── UHIF\_forward\_inverse.ipynb  
- │   ├── sensitivity\_curves.ipynb  
- │   └── phase\_transition\_analysis.ipynb  
- ├── figures/  
- │   ├── coherence\_polytope.png  
- │   ├── spectral\_threshold.png  
- │   └── error\_topology.png  
- ├── Unified\_Holographic\_Inference\_Framework\_Report.md  
- └── LICENSE
-
 ---
 
 ### **✅ Licensing & Citation**
